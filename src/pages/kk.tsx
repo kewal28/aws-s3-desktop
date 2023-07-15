@@ -1,5 +1,9 @@
 import React from "react"
 
 export const KK:React.FC = () => {
-    return <div>GO GO KK</div>
+    return <>
+    <main>
+  <div className="container pt-4">askdhasjkhk</div> 
+</main>
+</>
 }
