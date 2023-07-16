@@ -5,7 +5,7 @@ export const Work: React.FC = () => {
   return (
     <>
       {electron.homeDir()}
-      {electron.getBaseFiles()}
+      {/* {electron.getBaseFiles()} */}
     </>
   );
 };

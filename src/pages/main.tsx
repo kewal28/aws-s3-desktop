@@ -6,11 +6,11 @@ import { SideMenu } from "../components/side-menu/side-menu";
 export const Main: React.FC = () => {
   return (
     <>
+    <SideMenu />
       <header>
-        <SideMenu />
         <Header />
       </header>
-      <main style={{ marginTop: '58px', marginRight: '240px'}}>
+      <main style={{ marginTop: '58px', marginLeft: '240px'}}>
         <div className="container pt-4" style={{ backgroundColor: 'orange'}}>
           <div className="container pt-4 mt-100">
             <Outlet />
