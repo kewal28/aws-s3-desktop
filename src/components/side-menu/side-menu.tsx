@@ -6,14 +6,8 @@ export const SideMenu: React.FC = () => {
     <>
       <nav
         id="sidebarMenu"
-        className="collapse d-lg-block sidebar collapse bg-white"
+        className="d-lg-block sidebar bg-white"
       >
-        <img
-          src="https://billingpie.com/assets/billing-pie.png"
-          height="50"
-          alt="MDB Logo"
-          loading="lazy"
-        />
         <div className="position-sticky">
           <div className="list-group list-group-flush mx-3 mt-4">
             <a

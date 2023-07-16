@@ -6,11 +6,11 @@ export const Header:React.FC = () => {
     <nav id="main-navbar" className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     {/* <!-- Container wrapper --> */}
     <div className="container-fluid">
-      {/* <!-- Toggle button --> */}
-      <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
-        aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <i className="fas fa-bars"></i>
-      </button>
+      <div className='logo'>
+        <img src="https://billingpie.com/assets/billing-pie.png" height="50" alt="MDB Logo"
+          loading="lazy" />
+      </div>
+
       {/* <!-- Search form --> */}
       <form className="d-none d-md-flex input-group w-auto my-auto">
         <input type="search" className="form-control rounded"
